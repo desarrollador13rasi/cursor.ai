@@ -1,3 +1,29 @@
+# Archivos de configuración sensibles
+src/main/resources/application.properties
+
+# Archivos generados por el IDE
+.idea/
+*.iml
+*.iws
+*.ipr
+.project
+.classpath
+.settings/
+
+# Archivos compilados
+target/
+*.class
+*.jar
+*.war
+*.ear
+
+# Archivos de logs
+*.log
+
+# Archivos del sistema
+.DS_Store
+Thumbs.db
+
 HELP.md
 target/
 !.mvn/wrapper/maven-wrapper.jar
@@ -12,12 +38,6 @@ target/
 .settings
 .springBeans
 .sts4-cache
-
-### IntelliJ IDEA ###
-.idea
-*.iws
-*.iml
-*.ipr
 
 ### NetBeans ###
 /nbproject/private/
